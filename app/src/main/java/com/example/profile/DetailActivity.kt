@@ -14,6 +14,7 @@ class DetailActivity : AppCompatActivity() {
         const val EXTRA_PLACE = "extra_place"
     }
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
@@ -33,5 +34,16 @@ class DetailActivity : AppCompatActivity() {
         tvBirth.text = birth.toString()
         tvPlace.text = place.toString()
 
+        val actionBar = supportActionBar
+        actionBar?.setDisplayHomeAsUpEnabled(true)
+        actionBar?.setDisplayHomeAsUpEnabled(true)
+
     }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
+    }
+
+
 }
