@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/img_photo"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_width="360dp"
+        android:layout_height="215dp"
         android:layout_gravity="center"
         tools:src="@tools:sample/avatars"/>
 
@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
-        android:textSize="25sp"
+        android:textSize="16sp"
         android:layout_marginTop="16dp"
         android:gravity="center"
         tools:text="Luthfi"/>
@@ -34,16 +34,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:textSize="23sp"
+            android:textSize="14sp"
             android:textStyle="bold"
-            android:text="Kelahiran"/>
+            android:text="Kelahiran : "/>
 
         <TextView
             android:id="@+id/tv_birth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:textSize="23sp"
+            android:textSize="14sp"
             android:layout_marginStart="8dp"
             tools:text="Wonosobo"/>
 
@@ -58,16 +58,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:textSize="23sp"
+            android:textSize="14sp"
             android:textStyle="bold"
-            android:text="Kota Asal"/>
+            android:text="Kota Asal : "/>
 
         <TextView
             android:id="@+id/tv_place"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:textSize="23sp"
+            android:textSize="14sp"
             android:layout_marginStart="8dp"
             tools:text="Makassar"/>
 

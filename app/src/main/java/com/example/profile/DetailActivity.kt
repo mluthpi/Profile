@@ -37,6 +37,7 @@ class DetailActivity : AppCompatActivity() {
         val actionBar = supportActionBar
         actionBar?.setDisplayHomeAsUpEnabled(true)
         actionBar?.setDisplayHomeAsUpEnabled(true)
+        actionBar?.title = name
 
     }
 

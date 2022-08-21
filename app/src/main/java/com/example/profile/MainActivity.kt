@@ -22,5 +22,7 @@ class MainActivity : AppCompatActivity() {
         rvUser.adapter = listViewHolder
 
         rvUser.layoutManager = LinearLayoutManager(this)
+
+        supportActionBar?.title = "Github App"
     }
 }
